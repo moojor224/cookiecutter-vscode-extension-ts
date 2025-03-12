@@ -1,0 +1,7 @@
+{
+    "extension_id": "my-vscode-extension",
+    "extension_name": "My VSCode Extension",
+    "extension_description": "This is a description of my VSCode extension",
+    "author": "",
+    "author_email": ""
+}
