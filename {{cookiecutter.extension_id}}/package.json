@@ -40,7 +40,7 @@
                     "group": "{{cookiecutter.extension_id}}"
                 }
             ],
-            "REPO_NAME.submenu": [
+            "{{cookiecutter.extension_id}}.submenu": [
                 {
                     "when": "resourceLangId == html",
                     "command": "{{cookiecutter.extension_id}}.command",
