@@ -18,5 +18,5 @@ except subprocess.CalledProcessError:
 
 try:
     subprocess.check_call(["npm", "install"])
-except subprocess.CalledProcessError:
+except (subprocess.CalledProcessError, FileNotFoundError):
     pass # ignore error if npm not installed
